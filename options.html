@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Options</title>
+  <link rel="stylesheet" type="text/css" href="options.css">
+</head>
+<body>
+<table id="options">
+  <tr id="account">
+    <th><label for="accountNumber">Account number</label></th>
+    <td>
+        <input type="text" name="accountNumber" id="accountNumber" value="0" maxlength="3" placeholder="0">
+        <p class="description">Please enter account number.</p>
+        <p class="description">://inbox.google.com/u/<span>0</span>&nbsp;←</p>
+    </td>
+  </tr>
+  <tr id="polling">
+    <th><label for="pollingInterval">Polling interval</label></th>
+    <td>
+        <input type="text" name="pollingInterval" id="pollingInterval" value="60" maxlength="3" placeholder="60">
+        <p class="description">Interval of inbox checking(in seconds).</p>
+    </td>
+  </tr>
+</table>
+<footer id="footer">
+  <button id="save" type="button">Save</button>
+</footer>
+
+<div id="savedMessage">
+  <p>Settings saved.</p>
+</div>
+<div id="filter"></div>
+
+<script src="defaults.js"></script>
+<script src="options.js"></script>
+</body>
+</html>

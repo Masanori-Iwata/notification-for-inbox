@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Simple notification for Inbox™",
+  "version": "1.0.1",
+  "description": "Simply display the number of unread messages.",
+  "icons": {
+    "128": "icon_inbox_128_01.png"
+  },
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon_inbox_not_logged_in_01.png"
+  },
+  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "permissions": [
+    "alarms",
+    "tabs",
+    "storage",
+    "*://*.google.com/"
+   ],
+  "homepage_url": "http://www.masanoriiwata.jp"
+}
