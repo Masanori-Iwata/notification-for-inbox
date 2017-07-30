@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Simple notification for Inbox™",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Simply display the number of unread messages.",
   "icons": {
     "128": "icon_inbox_128_01.png"
